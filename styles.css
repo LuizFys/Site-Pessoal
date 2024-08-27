@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil-img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.projeto {
+    margin-bottom: 20px;
+}
+
+.titulo-projeto {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+.descricao-projeto {
+    font-family: 'Lora', serif;
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}

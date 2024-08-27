@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Lora:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="header-content">
+            <img src="perfil.jpg" alt="Minha Foto" class="perfil-img">
+            <h1>Luiz Fernando</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção de Introdução -->
+    <section id="intro">
+        <h2>Olá! Eu sou Luiz Fernando</h2>
+        <p>Sou um Promotor Especializado apaixonado por Progamação e Desenvolvimento. Neste site, você pode conhecer mais sobre mim, meus projetos e como entrar em contato.</p>
+    </section>
+
+    <!-- Seção de Projetos -->
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projeto">
+            <h3 class="titulo-projeto">Projeto 1</h3>
+            <p class="descricao-projeto">Colocando em pratica projeto de aulas. Criando um site pessoal das aulas anteriores.</p>
+        </div>
+        <div class="projeto">
+            <h3 class="titulo-projeto">Projeto 2</h3>
+            <p class="descricao-projeto">melhorando site e suas funcionalidades. Deixando mais acessivel.</p>
+        </div>
+
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="enviar-contato.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a> | <a href="#">LinkedIn</a> | <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
